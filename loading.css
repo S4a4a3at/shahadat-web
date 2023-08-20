@@ -1,0 +1,76 @@
+.ball {
+    height: 5vh;
+    width: 5vh;
+    border-radius: 50%;
+    background-color: gray;
+    margin: 5px;
+}
+.first-ball {
+    animation: upper1 0.5s infinite 0.5s alternate;
+}
+
+@keyframes upper1 {
+    0% {
+        margin-bottom: 0px;
+    }
+
+    100% {
+        margin-bottom: 50px;
+    }
+}
+
+.second-ball {
+    animation: upper2 0.5s infinite 1s alternate;
+}
+
+@keyframes upper2 {
+    0% {
+        margin-bottom: 0px;
+    }
+
+    100% {
+        margin-bottom: 50px;
+    }
+}
+
+.third-ball {
+    animation: upper3 0.5s infinite 1.5s alternate;
+}
+
+@keyframes upper3 {
+    0% {
+        margin-bottom: 0px;
+    }
+
+    100% {
+        margin-bottom: 50px;
+    }
+}
+
+.fourth-ball {
+    animation: upper4 0.5s infinite 2s alternate;
+}
+
+@keyframes upper4 {
+    0% {
+        margin-bottom: 0px;
+    }
+
+    100% {
+        margin-bottom: 50px;
+    }
+}
+
+.fifth-ball {
+    animation: upper5 0.5s infinite 2.5s alternate;
+}
+
+@keyframes upper5 {
+    0% {
+        margin-bottom: 0px;
+    }
+
+    100% {
+        margin-bottom: 50px;
+    }
+}
